@@ -1,7 +1,7 @@
 import React from "react";
 import blogData from "../data/blog";
 
-function article() {
+function Article() {
     return(
         <article>
             <h3>{blogData.title}</h3>
@@ -11,4 +11,4 @@ function article() {
     )
 }
 
-export default article;
+export default Article;
